@@ -18,6 +18,7 @@
     <div v-for="skill in skills" :key="skill" class="pill"> 
         <span @click="deleteSkill(skill)"> {{skill}} </span>
     </div>
+    <!-- other ways to call -->
     <!-- <div>
         <input type="checkbox" value="vue" v-model="names">
         <label>Vue</label>
